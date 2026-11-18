@@ -1,10 +1,13 @@
 [package]
-name = "arch-shader-gagan-kernel"
+name = "sigmaos-arch-shader-gagan-kernel"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-shader-gagan-kernel component - Inspired by Arch Linux and Debian"
+description = "Gagan shader kernel for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-shader-gagan-kernel"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_shader_gagan_kernel"
+path = "src/lib.rs"
